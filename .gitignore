@@ -361,3 +361,60 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# -----------------------
+# 여기서부터 내가 추가로 넣음
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat  # Visual Studio에서 사용하는 Node.js 분석 데이터 파일
+node_modules/       # Node.js 프로젝트에서 생성되는 의존성 폴더 (Git에 포함할 필요 없음)
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/         # Python에서 생성되는 캐시 파일 (컴파일된 바이트 코드)
+*.pyc                # Python 컴파일된 바이트 코드 파일
+
+# Cake - 빌드 자동화 도구인 Cake를 사용할 경우
+# tools/**          # 빌드 도구 관련 파일
+# !tools/packages.config  # 패키지 설정 파일은 제외하지 않도록 설정
+
+# Tabs Studio
+*.tss                # Tabs Studio에서 생성되는 파일
+
+# Telerik's JustMock configuration file
+*.jmconfig           # Telerik JustMock의 설정 파일
+
+# BizTalk build output
+*.btp.cs             # BizTalk에서 생성되는 빌드 출력 파일
+*.btm.cs             # BizTalk에서 생성되는 빌드 출력 파일
+*.odx.cs             # BizTalk에서 생성되는 빌드 출력 파일
+*.xsd.cs             # BizTalk에서 생성되는 빌드 출력 파일
+
+# OpenCover UI 분석 결과
+OpenCover/           # OpenCover 코드 커버리지 도구의 분석 결과 파일
+
+# Azure Stream Analytics 로컬 실행 출력
+ASALocalRun/         # Azure Stream Analytics의 로컬 실행 결과
+
+# MSBuild 바이너리 및 구조화된 로그
+*.binlog             # MSBuild에서 생성된 바이너리 로그 파일
+
+# NVidia Nsight GPU 디버거 설정 파일
+*.nvuser             # NVidia Nsight GPU 디버거의 설정 파일
+
+# MFractors (Xamarin 생산성 도구) 작업 폴더
+.mfractor/           # Xamarin 도구에서 생성되는 임시 작업 폴더
+
+# Visual Studio의 로컬 히스토리 파일
+.localhistory/       # Visual Studio에서 프로젝트의 로컬 히스토리 파일
+
+# BeatPulse 건강 체크 임시 데이터베이스
+healthchecksdb       # BeatPulse 건강 체크 도구의 임시 데이터베이스 파일
+
+# Visual Studio 2017에서 패키지 참조 변환 도구 백업 폴더
+MigrationBackup/     # Package Reference 변환 도구의 백업 폴더
+
+# Ionide (크로스 플랫폼 F# VS Code 도구) 작업 폴더
+.ionide/             # Ionide F# 도구에서 생성되는 작업 폴더
+
+# Fody - 자동 생성된 XML 스키마 파일
+FodyWeavers.xsd      # Fody에서 자동으로 생성된 XML 스키마 파일
