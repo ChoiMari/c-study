@@ -504,3 +504,15 @@ MigrationBackup/     # Package Reference 변환 도구의 백업 폴더
 
 # Fody - 자동 생성된 XML 스키마 파일
 FodyWeavers.xsd      # Fody에서 자동으로 생성된 XML 스키마 파일
+
+# .vcxproj 파일 무시
+*.vcxproj
+*.user
+*.suo
+
+# 빌드 파일 무시
+/Debug/
+/Release/
+*.obj
+*.exe
+*.dll
