@@ -1,4 +1,4 @@
-/* printf()와 scanf() 연습
+/* printf()와 scanf() 연습 
  연습 날짜 : 2025-03-05 */
 
 #define _CRT_SECURE_NO_WARNINGS //-> scanf()함수 사용시 발생하는 오류 때문에 추가함. 
