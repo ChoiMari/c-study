@@ -516,3 +516,6 @@ FodyWeavers.xsd      # Fody에서 자동으로 생성된 XML 스키마 파일
 *.obj
 *.exe
 *.dll
+# Ignore Visual Studio project files
+*.vcxproj
+*.vcxproj.filters
