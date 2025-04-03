@@ -26,11 +26,11 @@ int main(void) {
 	//int div_result = oprand1 / oprand2;
 	int mod_result = oprand1 % oprand2;
 
-	printf("%d + %d = %5d \n", oprand1, oprand2, (sum_result));
-	printf("%d - %d = %5d \n", oprand1, oprand2, (sub_result));
-	printf("%d * %d = %5d \n", oprand1, oprand2, (multi_result));
-	//printf("%d / %d = %5d \n", oprand1, oprand2, (div_result));
-	printf("%d %% %d = %5d \n\n", oprand1, oprand2, (mod_result));
+	printf("%d + %d = %5d \n", oprand1, oprand2, sum_result);
+	printf("%d - %d = %5d \n", oprand1, oprand2, sub_result);
+	printf("%d * %d = %5d \n", oprand1, oprand2, multi_result);
+	//printf("%d / %d = %5d \n", oprand1, oprand2, div_result);
+	printf("%d %% %d = %5d \n\n", oprand1, oprand2, mod_result);
 	// 형식지정자 %로 인식되서 문자 그대로 %출력하려고 %% 사용함
 
 	// 주의, 나눗셈(/) 연산에는 문제가 있음
@@ -45,7 +45,7 @@ int main(void) {
 	// 연산자 우선 순위에서 산술연산보다 형변환이 더 우위 
 	// (double) oprand1이 먼저 되고 / oprand2가 계산됨
 
-	printf("%d / %d = %5.1f \n\n", oprand1, oprand2, (div_result)); //__1.4
+	printf("%d / %d = %5.1f \n\n", oprand1, oprand2, div_result); //__1.4
 	// %5.1 : 문자폭지정(전체출력자리수) 5칸,정밀도 지정 소수점이하 1자리수만 출력해라
 	// 소수점 . 도 전체출력자리수에 포함됨
 
